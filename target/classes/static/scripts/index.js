@@ -4,7 +4,7 @@ function getProducts() {
 }
 
 function toProductHtmlElement(product) {
-    let htmlElement = document.createElement('<li>')
+    let htmlElement = document.createElement('li')
 
     let innerHtml = `
             <h2>${product.title}</h2>
